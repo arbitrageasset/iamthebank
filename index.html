@@ -178,7 +178,11 @@ Take back control of your lives
 </div>
 <div class='row'>
 <div class='col-md-8 col-md-offset-2'>
-
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
+  </div>
 <form id="gform" class="contact-form" data-toggle="validator" name="contactForm" action="https://script.google.com/macros/s/AKfycbxtpoj8dN2vzOUe3h5HtMUOhMjMwVO-uIZQ-cakFJJkKVpwhFXl/exec" accept-charset="UTF-8" method="POST"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4lzwZR9Xoge4zM9oeDHIdEoKv00Agpxe6vl7d9CjEfd5LV3fBGAVhFyc7fB+B/ffXySW1fTbkiz3CXzMQKg3yQ==" /><div id='contact-form-result'></div>
 <div class='row'>
 <div class='col-md-6'>
@@ -228,11 +232,6 @@ Make Me The Bank
 </button>
 </div>
 </form>
-  <!-- Customise the Thankyou Message People See when they submit the form: -->
-  <div style="display:none;" id="thankyou_message">
-    <h2><em>Thanks</em> for contacting us!
-      We will get back to you soon!</h2>
-  </div>
 </div>
 </div>
 </div>
@@ -601,5 +600,6 @@ JavaScript Files
 <script src='js/validator.min.js'></script>
 <script src='js/smooth-scroll.min.js'></script>
 <script src='js/script.js'></script>
+<script data-cfasync="false" type="text/javascript" src="js/form.js"></script>
 </body>
 </html>

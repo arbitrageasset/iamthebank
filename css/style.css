@@ -1021,6 +1021,10 @@ textarea.form-control{
 	border:none;
 	border-radius:0;
 }
+#thankyou_message
+{
+	height: 260px;
+}
 
 /*========================================================
 	Footer
